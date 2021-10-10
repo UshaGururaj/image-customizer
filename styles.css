@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+:root{
+    --bg-color: #110425;
+    /* --bg-color: white; */
+    --blur-value: 5px;
+    --padding: 1rem;
+}
+
+body{
+    width:80%;
+    margin: auto;
+}
+
+.img-div{
+  text-align: center;
+  background-color: var(--bg-color);
+  padding: var(--padding);
+  width:30rem;
+  margin: 2rem auto;
+  border-radius: 15px;  
+}
+
+img{
+   width:30rem;
+   filter:blur(var(--blur-value));
+   border-radius: 15px;
+}
+
+.div-customizer{
+    display:inline-block;
+    margin:0rem 1rem;
+}
+
+.div-customizer h2,.div-slider{
+    display: inline-block;
+}
+
+.container, h1{
+    margin: 1rem 1rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Akronim', sans-serif;
+    font-size: 3rem;
+}
